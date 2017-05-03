@@ -133,6 +133,7 @@ Nos exemplos a seguir observar a posição de espaços, vírgulas e parênteses.
 
 ```php
 <?php
+
 if ($expr1) {
     // if body
 } elseif ($expr2) {
@@ -146,6 +147,7 @@ if ($expr1) {
 
 ```php
 <?php
+
 switch ($expr) {
     case 0:
         echo 'First case, with a break';
@@ -168,11 +170,13 @@ switch ($expr) {
 
 ```php
 <?php
+
 while ($expr) {
     // structure body
 }
 
 <?php
+
 do {
     // structure body;
 } while ($expr);
@@ -182,6 +186,7 @@ do {
 
 ```php
 <?php
+
 for ($i = 0; $i < 10; $i++) {
     // for body
 }
@@ -191,6 +196,7 @@ for ($i = 0; $i < 10; $i++) {
 
 ```php
 <?php
+
 foreach ($iterable as $key => $value) {
     // foreach body
 }
@@ -200,6 +206,7 @@ foreach ($iterable as $key => $value) {
 
 ```php
 <?php
+
 try {
     // try body
 } catch (FirstExceptionType $e) {
