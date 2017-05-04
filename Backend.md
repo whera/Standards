@@ -215,6 +215,30 @@ try {
     // catch body
 }
 ```
+## Return
+
+Retorno de funções e métodos **DEVEM** estar separados da logica por um linha em branco.
+
+Exemplo ***CORRETO***:
+```php
+public function setName($name)
+{
+    $this->name = $name;
+    
+    return $this;
+}
+```
+
+Exemplo ***ERRADO***:
+
+```php
+public function setName($name)
+{
+    $this->name = $name;
+    return $this;
+}
+```
+
 
 ## Comentários gerais
 
